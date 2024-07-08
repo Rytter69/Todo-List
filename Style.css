@@ -28,3 +28,27 @@ body {
     padding: 10px;
     cursor: pointer;
   }
+  li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  li.completed {
+    text-decoration: line-through;
+    color: gray;
+  }
+  
+  .filters {
+    margin-top: 20px;
+  }
+  
+  .filters .filter {
+    margin: 0 5px;
+    padding: 5px 10px;
+  }
+  
+  .filters .filter.active {
+    font-weight: bold;
+  }
